@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <h1 class="header-h1">Css Grid</h1>
+            </header>
+            <aside>
+                <ul>
+                    <li><a href="#gallery"><span>Gallery</span></a></li>
+                    <li><a href="#form"><span>Form</span></a></li>
+                    <li><a href="#text"><span>Text</span></a></li>
+                </ul>
+            </aside>
+            <main>
+                <section class="main-section--image">
+                    <img src="img/one.jpg">
+                </section>
+                <section class="main-section--gallery" id="gallery">
+                    <img src="img/two.jpg">
+                    <img src="img/three.jpg">
+                    <img src="img/four.jpg">
+                    <img src="img/five.jpg">
+                </section>
+                <section class="main-section--form" id="form">
+                     <form>
+                        <div class="form-block--one">
+                            <label for="first_name">Имя</label><br>
+                            <input type="text" id="first_name" name="first_name" placeholder="Имя"><br>
+                            <label for="last_name">Фамилия</label><br>
+                            <input type="text" id="last_name" name="last_name" placeholder="Фамилия">
+                        </div>
+                        <div class="form-block--two">
+                            <label for="email">Почта</label><br>
+                            <input type="text" id="email" name="email" placeholder="email@gmail.com"><br>
+                            <label for="country">Страна</label><br>
+                            <select id="country" name="country">
+                                <option>Выберите страну</option>
+                                <option>Россия</option>
+                                <option>Узбекистан</option>
+                                <option>Украина</option>
+                            </select>      
+                        </div>
+                        <div class="form-block--three">
+                            <label for="bio">О себе</label><br>
+                            <textarea id="bio" name="bio" ></textarea>
+                        </div>
+                    </form>
+                </section>
+                <section class="main-section--text" id="text">
+                    <div class="section-card--one">
+                        <img src="https://picsum.photos/200/200?grayscale">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore esse quae pariatur dicta molestias illum dolor doloremque quos sit, adipisci quisquam autem, architecto impedit ducimus consectetur odio accusamus quas voluptatum?</p>
+                    </div>
+                    <div class="section-card--two">
+                        <img src="https://picsum.photos/200/200?grayscale">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore esse quae pariatur dicta molestias illum dolor doloremque quos sit, adipisci quisquam autem, architecto impedit ducimus consectetur odio accusamus quas voluptatum?</p>
+                    </div>
+                    <div class="section-card--three">
+                        <img src="https://picsum.photos/200/200?grayscale">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore esse quae pariatur dicta molestias illum dolor doloremque quos sit, adipisci quisquam autem, architecto impedit ducimus consectetur odio accusamus quas voluptatum?</p>
+                    </div>
+                </section>
+            </main>
+            <footer><p>Работу выполнил <b>Воробьёв Владислав</b> группа <em>201-321</em></p></footer>
+          </div>
+        <script src="" async defer></script>
+    </body>
+</html>
